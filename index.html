@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CDN link -->
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <!-- Icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- Custom Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-success shadow-sm py-3">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand fw-bold text-light fs-4" href="./index.html">
+          <i class="bi bi-hexagon-fill me-1"></i> BrandLogo
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="./index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./products.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./abouts.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <!-- CTA Button -->
+          <div class="d-flex mt-3 mt-lg-0">
+            <a
+              href="#"
+              class="btn btn-warning px-3 rounded-pill fw-medium shadow-sm w-100 text-light fw-bold"
+              ><i class="bi bi-cart-fill px-2 text-success"></i>Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero Section -->
+    <section>
+      <!-- Custom Full-Width Hero Slider -->
+      <div id="heroCarousel" class="carousel slide carousel-fade vh-100" data-bs-ride="carousel">
+        <div class="h-100">
+          <div
+            class="h-100 bg-dark"
+            style="
+              background:
+                linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('./assest/hero\ banner.png') center/cover;
+            "
+          >
+            <div
+              class="container h-100 d-flex align-items-center justify-content-center text-center"
+            >
+              <div class="col-lg-8 text-white">
+                <h1 class="display-3 fw-bold mb-4">Welcome To My Plant Shop</h1>
+                <p class="lead mb-5 text-light opacity-75">
+                  Discover the best plants for your home, garden, or outdoor living space.
+                </p>
+                <a href="#" class="btn btn-success btn-lg px-5 rounded-pill fw-medium"
+                  >Find Your Plant</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section -->
+
+    <!-- Perfect Plant -->
+    <section class="container mt-5">
+      <div class="d-flex justify-content-center">
+        <h1>Find Your Perfect plants</h1>
+      </div>
+      <div class="accordion mt-5" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button fs-5 fw-semibold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+           1. How often should I water my plants?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Most indoor plants should be watered once or twice a week. Always check the soil before watering to avoid overwatering.
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Perfect Plant -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light pt-5 pb-4 mt-5">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- Column 1: Brand & About -->
+          <div class="col-lg-4 col-md-6">
+            <h5 class="fw-bold text-white mb-3">
+              <i class="bi bi-hexagon-fill text-primary me-2"></i>BrandLogo
+            </h5>
+            <p class="text-secondary small mb-4">
+              We provide high-quality digital solutions to help businesses grow and scale
+              effectively. Innovate with us and reach new heights.
+            </p>
+            <div class="d-flex gap-2">
+              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div class="col-lg-2 col-md-6">
+            <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Quick Links</h6>
+            <ul class="list-unstyled small text-secondary d-flex flex-column gap-2">
+              <li>
+                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
+                  >Our Services</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
+                  >Portfolio Projects</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
+                  >Contact Support</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Contact Info -->
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Contact Info</h6>
+            <ul class="list-unstyled small text-secondary d-flex flex-column gap-3">
+              <li class="d-flex gap-3 align-items-start">
+                <i class="bi bi-geo-alt fs-5 text-primary"></i>
+                <span>123 Innovation Ave, Tech City,<br />New York 10001</span>
+              </li>
+              <li class="d-flex gap-3 align-items-center">
+                <i class="bi bi-envelope fs-5 text-primary"></i>
+                <span>support@brandlogo.com</span>
+              </li>
+              <li class="d-flex gap-3 align-items-center">
+                <i class="bi bi-telephone fs-5 text-primary"></i>
+                <span>+1 (555) 123-4567</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Newsletter -->
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Newsletter</h6>
+            <p class="text-secondary small mb-3">
+              Subscribe to receive updates, access to exclusive deals, and more.
+            </p>
+            <form class="d-flex gap-2">
+              <input
+                type="email"
+                class="form-control bg-dark text-light border-secondary"
+                placeholder="Email address"
+                required
+              />
+              <button class="btn btn-primary" type="submit">Subscribe</button>
+            </form>
+            <div class="form-text text-secondary mt-2" style="font-size: 0.7rem">
+              We respect your privacy. No spam.
+            </div>
+          </div>
+        </div>
+
+        <!-- Simple Footer Copyright -->
+        <hr class="border-secondary mt-5 mb-4" />
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start small text-secondary mb-3 mb-md-0">
+            &copy; 2026 BrandLogo. All rights reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end small">
+            <a href="#" class="text-secondary text-decoration-none me-3 hover-white"
+              >Terms of Service</a
+            >
+            <a href="#" class="text-secondary text-decoration-none hover-white">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- js CDN -->
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

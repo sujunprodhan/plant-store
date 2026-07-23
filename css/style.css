@@ -1,0 +1,10 @@
+.hover-white:hover {
+  color: #fff !important;
+}
+.tracking-wide {
+  letter-spacing: 1px;
+}
+
+/* Hero css */
+.tracking-wide { letter-spacing: 2px; }
+.carousel-item { transition: transform 1.2s ease-in-out, opacity 1s ease-in-out; }
