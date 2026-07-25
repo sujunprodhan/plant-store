@@ -5,6 +5,12 @@
   letter-spacing: 1px;
 }
 
+/* logo  */
+.logo{
+    height: 50px;
+    width: auto;
+}
+
 /* Hero css */
 .tracking-wide { letter-spacing: 2px; }
 .carousel-item { transition: transform 1.2s ease-in-out, opacity 1s ease-in-out; }
