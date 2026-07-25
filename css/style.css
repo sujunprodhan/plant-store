@@ -8,3 +8,18 @@
 /* Hero css */
 .tracking-wide { letter-spacing: 2px; }
 .carousel-item { transition: transform 1.2s ease-in-out, opacity 1s ease-in-out; }
+
+/* background */
+.backround {
+   background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../assest/hero\ banner.png");
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat;
+
+  min-height: 400px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
