@@ -22,8 +22,8 @@
     <nav class="navbar navbar-expand-lg bg-success shadow-sm py-3">
       <div class="container">
         <!-- Brand Logo -->
-        <a class="navbar-brand fw-bold text-light fs-4" href="./index.html">
-          <i class="bi bi-hexagon-fill me-1"></i> BrandLogo
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assest/plant.png" class="logo text-light" alt="Logo">
         </a>
 
         <!-- Mobile Toggle -->
@@ -58,7 +58,7 @@
           </ul>
 
           <!-- CTA Button -->
-            <div class="d-flex mt-3 mt-lg-0">
+          <div class="d-flex mt-3 mt-lg-0">
             <a
               href="#"
               class="btn btn-warning px-3 rounded-pill fw-medium shadow-sm w-100 text-light fw-bold"
@@ -70,30 +70,141 @@
     </nav>
     <!-- Navbar -->
 
+    <!-- Contact from -->
+    <!-- Contact Split Form & Info Section -->
+    <section class="py-5">
+      <div class="container py-4">
+        <!-- Main Contact Card -->
+        <div class="row g-0 rounded-4 shadow-sm overflow-hidden border">
+          <!-- Left Info Panel -->
+          <div
+            class="col-lg-4 bg-success text-white p-5 d-flex flex-column justify-content-between"
+          >
+            <div>
+              <h3 class="fw-bold mb-2">Get in touch</h3>
+              <p class="opacity-75 mb-5">
+                We'd love to hear from you. Our friendly team is always here to chat.
+              </p>
+
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <i class="bi bi-geo-alt fs-3 text-light opacity-50"></i>
+                <div>
+                  <h6 class="mb-1 fw-bold">Office Address</h6>
+                  <p class="mb-0 opacity-75 small">123 Innovation Ave, NY 10001</p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <i class="bi bi-envelope fs-3 text-light opacity-50"></i>
+                <div>
+                  <h6 class="mb-1 fw-bold">Email Us</h6>
+                  <p class="mb-0 opacity-75 small">hello@brandlogo.com</p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-telephone fs-3 text-light opacity-50"></i>
+                <div>
+                  <h6 class="mb-1 fw-bold">Call Us</h6>
+                  <p class="mb-0 opacity-75 small">+1 (555) 123-4567</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Socials -->
+            <div class="mt-5">
+              <a href="#" class="text-white me-3 fs-5 opacity-75 hover-opacity-100 transition-all"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-white me-3 fs-5 opacity-75 hover-opacity-100 transition-all"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="#" class="text-white fs-5 opacity-75 hover-opacity-100 transition-all"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Right Form Panel -->
+          <div class="col-lg-8 bg-white p-5">
+            <h3 class="fw-bold mb-4">Send us a message</h3>
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label small fw-medium text-muted">First Name</label>
+                  <input type="text" class="form-control" placeholder="John" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label small fw-medium text-muted">Last Name</label>
+                  <input type="text" class="form-control" placeholder="Doe" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label small fw-medium text-muted">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="john@example.com"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label small fw-medium text-muted">Message</label>
+                  <textarea
+                    class="form-control"
+                    rows="4"
+                    placeholder="How can we help you?"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-success px-5 fw-bold">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Full Width Map Embed -->
+        <div class="rounded-4 overflow-hidden shadow-sm mt-5 border bg-light" style="height: 400px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1700000000000!5m2!1sen!2sbd"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact from -->
+
     <!-- Footer -->
-    <footer class="bg-dark text-light pt-5 pb-4 mt-5">
+    <footer class="bg-success text-light pt-5 pb-4 mt-5">
       <div class="container">
         <div class="row gy-5">
           <!-- Column 1: Brand & About -->
           <div class="col-lg-4 col-md-6">
-            <h5 class="fw-bold text-white mb-3">
-              <i class="bi bi-hexagon-fill text-primary me-2"></i>BrandLogo
-            </h5>
-            <p class="text-secondary small mb-4">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./assest/plant.png" class="logo text-light" alt="Logo" />
+            </a>
+            <p class="text-light small mb-4">
               We provide high-quality digital solutions to help businesses grow and scale
               effectively. Innovate with us and reach new heights.
             </p>
             <div class="d-flex gap-2">
-              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+              <a href="#" class="btn btn-sm btn-outline-light rounded-circle"
                 ><i class="bi bi-facebook"></i
               ></a>
-              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+              <a href="#" class="btn btn-sm btn-outline-light rounded-circle"
                 ><i class="bi bi-twitter-x"></i
               ></a>
-              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+              <a href="#" class="btn btn-sm btn-outline-light rounded-circle"
                 ><i class="bi bi-linkedin"></i
               ></a>
-              <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"
+              <a href="#" class="btn btn-sm btn-outline-light rounded-circle"
                 ><i class="bi bi-instagram"></i
               ></a>
             </div>
@@ -104,28 +215,31 @@
             <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Quick Links</h6>
             <ul class="list-unstyled small text-secondary d-flex flex-column gap-2">
               <li>
-                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
+                <a
+                  href="./index.html"
+                  class="text-warning text-decoration-none hover-white transition-all"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./products.html"
+                  class="text-warning text-decoration-none hover-white transition-all"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./abouts.html"
+                  class="text-warning text-decoration-none hover-white transition-all"
                   >About Us</a
                 >
               </li>
               <li>
-                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
-                  >Our Services</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
-                  >Portfolio Projects</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
+                <a
+                  href="./contact.html"
+                  class="text-warning text-decoration-none hover-white transition-all"
                   >Contact Support</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-secondary text-decoration-none hover-white transition-all"
-                  >Privacy Policy</a
                 >
               </li>
             </ul>
@@ -136,16 +250,16 @@
             <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Contact Info</h6>
             <ul class="list-unstyled small text-secondary d-flex flex-column gap-3">
               <li class="d-flex gap-3 align-items-start">
-                <i class="bi bi-geo-alt fs-5 text-primary"></i>
-                <span>123 Innovation Ave, Tech City,<br />New York 10001</span>
+                <i class="bi bi-geo-alt fs-5 text-warning"></i>
+                <span class="text-light">123 Innovation Ave, Tech City,<br />New York 10001</span>
               </li>
               <li class="d-flex gap-3 align-items-center">
-                <i class="bi bi-envelope fs-5 text-primary"></i>
-                <span>support@brandlogo.com</span>
+                <i class="bi bi-envelope fs-5 text-warning"></i>
+                <span class="text-light">support@brandlogo.com</span>
               </li>
               <li class="d-flex gap-3 align-items-center">
-                <i class="bi bi-telephone fs-5 text-primary"></i>
-                <span>+1 (555) 123-4567</span>
+                <i class="bi bi-telephone fs-5 text-warning"></i>
+                <span class="text-light">+1 (555) 123-4567</span>
               </li>
             </ul>
           </div>
@@ -153,17 +267,17 @@
           <!-- Column 4: Newsletter -->
           <div class="col-lg-3 col-md-6">
             <h6 class="text-white mb-3 text-uppercase fw-bold tracking-wide">Newsletter</h6>
-            <p class="text-secondary small mb-3">
+            <p class="text-warning small mb-3">
               Subscribe to receive updates, access to exclusive deals, and more.
             </p>
             <form class="d-flex gap-2">
               <input
                 type="email"
-                class="form-control bg-dark text-light border-secondary"
+                class="form-control bg-warning text-light border-secondary"
                 placeholder="Email address"
                 required
               />
-              <button class="btn btn-primary" type="submit">Subscribe</button>
+              <button class="btn btn-light" type="submit">Subscribe</button>
             </form>
             <div class="form-text text-secondary mt-2" style="font-size: 0.7rem">
               We respect your privacy. No spam.
